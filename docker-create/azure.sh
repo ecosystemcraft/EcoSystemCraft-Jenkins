@@ -9,4 +9,4 @@ docker-machine create -d azure \
  --azure-subscription-id="${AZURE_SUBSCRIPTION_ID}" \
  --azure-subscription-cert="${AZURE_SUBSCRIPTION_CERT}" \
  --azure-location "${AZURE_LOCATION}" \
- ${AZURE_RESOURCE_NAME}
+ ecosys${AZURE_RESOURCE_NAME}
